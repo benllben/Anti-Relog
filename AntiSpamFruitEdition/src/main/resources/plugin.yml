@@ -1,0 +1,11 @@
+name: AntiSpamFruitEdition
+main: io.github.benllben.AntiSpamFruitEdition.AntiSpamFruitEdition
+version: 0.01
+author: Benjabot
+description: Simple plugin
+commands:
+  antispam:
+    description: Used to turn the plugin on and off
+    usage: /<command> [Enable/Disable]
+    permission: AntispamFruitEdition.toggle
+    permission-message: You don't have AntispamFruitEdition.toggle 
